@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ipban-gui-docs.torgsoft.ua/
+
+# Sitemaps
+Sitemap: https://ipban-gui-docs.torgsoft.ua/sitemap.xml

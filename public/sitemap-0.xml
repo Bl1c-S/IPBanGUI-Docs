@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://ipban-gui-docs.torgsoft.ua</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/components/bord</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/components/downloadButton</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/components/formats/number</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/components/formats/time</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/components/messages/inProcess</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/install</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/events</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/events/types</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/ip</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/keys</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/keys/ban-time</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/keys/expire-time</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/keys/failed-login-attempts-before-ban</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/options/settings</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/updates</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/updates/v1.3.0</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://ipban-gui-docs.torgsoft.ua/updates/v1.4.0</loc><lastmod>2024-11-11T17:18:09.084Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+</urlset>

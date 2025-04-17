@@ -1,0 +1,55 @@
+import { Steps } from 'nextra/components';
+import Link from "next/link";
+
+# Як встановити Torgsoft IPBanGUI
+
+Оскільки програма Torgsoft IPBanGUI працює на основі IPBan, почати встановлення необхідно з неї.
+Якщо IPBan вже встановлено на вашому сервері, можна переходити до встановлення самого IPBanGUI.
+
+## Встановлення IPBan
+
+<Steps>
+    ### Налаштування політики аудиту
+    На сервері, комбінацією клавіш `Win + R` виконуємо команду `secpol.msc` після чого, відкриється вікно **Local Security Policy**.
+    Переходимо за шляхом `Security-Settings > Local-Policies > Audit-Policy`
+    <img src="assets/scr-policy1.png" alt="AuditPolicy" className="nx-rounded-lg nx-my-2"/>
+    Для політик `Audit logon events` та `Audit account logon events` вмикаємо реестрацію `Success` та `Failure` подій.
+
+    ### Встановлення IPBan
+    Створюємо папку з ім'ям `IPBan` наприклад `C:\Program Files\IPBan`.
+    [Завантажуємо архів з програмою IPBan](https://github.com/DigitalRuby/IPBan/releases) актуальної версії, з назвою `IPBan-Windows-x64.zip`.
+    Після розархівуємо всі файли в раніше створену папку `IPBan`. Запускаємо файл `DigitalRuby.IPBan.exe` з правами адміністратора.
+
+    Рекомендуємо протестовану версію IPBan 2.0.1
+
+    ### Створення служби
+    Після завершення встановлення IPBan, від імені адміністратора відкриваємо командний рядок `cmd` та виконуємо команду:
+    `sc create IPBAN binPath="C:\Program Files\IPBan\DigitalRuby.IPBan.exe" DisplayName= "IPBan" type=own start=auto`
+    При створенні служби, зверніть увагу на шлях до файлу `DigitalRuby.IPBan.exe`.
+</Steps>
+
+## Встановлення Torgsoft IPBanGUI
+
+Встанвіть пакет `.NET` після завантажте останню версію `IPBanGUI`.
+
+<div className="nx-flex nx-space-x-4 nx-mr-4 nx-mt-4 nx-gap-2">
+<button
+    className="nx-px-4 nx-py-2 nx-rounded-full nx-border nx-text-xl"
+    onClick={() => window.location.href = `https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-7.0.20-windows-x64-installer?cid=getdotnetcore`}
+>
+    Завантажити .NET 7.0
+</button>
+
+<button className="nx-px-4 nx-py-2 nx-rounded-full nx-border nx-text-xl">
+    <Link
+        href="/updates/last">
+        Завантажити IPBanGUI
+    </Link>
+</button>
+</div>
+
+[Завантажуємо програму Torgsoft IPBanGUI](/updates/last).
+З архіву перемістіть папку `IPBanGUI` до папки в яку було встановлено програму IPBan,
+наприклад: `C:\Program Files\IPBan\IPBanGUI`. Для зручності створіть ярлик файлу `IPBanGUI.exe` на робочий стіл.
+
+Після запуску, оберіть теку де розміщено IPBan `C:\Program Files\IPBan`.

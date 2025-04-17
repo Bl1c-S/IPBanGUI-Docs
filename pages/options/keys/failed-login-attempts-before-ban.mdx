@@ -1,0 +1,19 @@
+import NumberValue from "../../components/formats/number";
+import {Callout} from "nextra/components";
+
+
+# FailedLoginAttemptsBeforeBan
+Визначає кількість [невдалих спроб входу](/options/events/types#невдалий-вхід) до блокування IP-адреси.
+
+## Значення
+<NumberValue/>
+
+## Опис
+При досягненні вказаної кількості [невдалих спроб входу](/options/events/types#невдалий-вхід), ІР-адреса буде заблокована
+на час визначиний в ключі [BanTime](ban-time).
+Скористайтесь ключем [ExpireTime](expire-time) для визначення інтервалів часу,
+після якого буде скинуто лічильник невдалих спроб входу для IP-адреси.
+
+<Callout type="info" emoji="ℹ️">
+    Радимо встановлювати значення ключа `FailedLoginAttemptsBeforeBan`, від 3 до 5.
+</Callout>
