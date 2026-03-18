@@ -1,11 +1,11 @@
+import nextra from 'nextra'
 
-
-const withNextra = require('nextra')({
-    theme: 'nextra-theme-docs',
-    themeConfig: './theme.config.jsx'
+const withNextra = nextra({
+    contentDirBasePath: '/',
+    search: { codeblocks: false }
 })
 
-module.exports = withNextra({
+export default withNextra({
     async redirects() {
         return [
             {

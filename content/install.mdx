@@ -33,19 +33,18 @@ import Link from "next/link";
 Встанвіть пакет `.NET` після завантажте останню версію `IPBanGUI`.
 
 <div className="nx-flex nx-space-x-4 nx-mr-4 nx-mt-4 nx-gap-2">
-<button
-    className="nx-px-4 nx-py-2 nx-rounded-full nx-border nx-text-xl"
-    onClick={() => window.location.href = `https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-7.0.20-windows-x64-installer?cid=getdotnetcore`}
+<a
+    className="nx-px-4 nx-py-2 nx-rounded-full nx-border nx-text-xl nx-inline-block"
+    href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-7.0.20-windows-x64-installer?cid=getdotnetcore"
 >
     Завантажити .NET 7.0
-</button>
+</a>
 
-<button className="nx-px-4 nx-py-2 nx-rounded-full nx-border nx-text-xl">
-    <Link
-        href="/updates/last">
-        Завантажити IPBanGUI
-    </Link>
-</button>
+<Link
+    className="nx-px-4 nx-py-2 nx-rounded-full nx-border nx-text-xl nx-inline-block"
+    href="/updates/last">
+    Завантажити IPBanGUI
+</Link>
 </div>
 
 [Завантажуємо програму Torgsoft IPBanGUI](/updates/last).

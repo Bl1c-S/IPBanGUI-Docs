@@ -1,18 +1,21 @@
 {
   "dependencies": {
-    "next": "^14.2.4",
+    "next": "16.1.5",
     "next-sitemap": "^4.2.3",
-    "nextra": "^2.13.4",
-    "nextra-theme-docs": "^2.13.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "nextra": "^4.6.1",
+    "nextra-theme-docs": "^4.6.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "scripts": {
     "startpm": "pm2 start pm2.json",
     "stoppm": "pm2 stop pm2.json",
     "dev": "next",
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "next-sitemap && pagefind --site .next/server/app --output-path public/_pagefind",
     "start": "next start"
+  },
+  "devDependencies": {
+    "pagefind": "^1.4.0"
   }
 }

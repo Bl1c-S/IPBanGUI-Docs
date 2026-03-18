@@ -1,0 +1,7 @@
+export default {
+    index: 'Початок',
+    install: 'Встановлення',
+    updates: 'Оновлення',
+    options: 'Функції',
+    errors: 'Помилки'
+}
