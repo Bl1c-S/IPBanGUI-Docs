@@ -1,4 +1,4 @@
-{
+export default {
   "expire-time": "ExpireTime",
   "failed-login-attempts-before-ban": "FailedLoginAttempts BeforeBan",
   "ban-time": "BanTime"

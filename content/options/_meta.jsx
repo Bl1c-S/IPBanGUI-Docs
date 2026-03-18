@@ -1,4 +1,4 @@
-{
+export default {
   "events": "Події",
   "ip": "ІР",
   "keys": "Ключі",
