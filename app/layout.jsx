@@ -83,8 +83,6 @@ const search = (
   />
 );
 
-const lastUpdated = {};
-
 const toc = {
   backToTop: false,
   title: "На цій сторінці:",
